@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: white
+}
+
+/* GLOBAL STYLING */
+
+body {
+  background-color: black
+}
+
+/* Back button */
+.js-back-to-js {
+  font-size: 1.3rem;
+  margin-left: 1%;
+  cursor: pointer; 
+  opacity: 0.35;
+  margin-right: 92%;
+}
+.js-back-to-js:hover {
+  opacity: 1;
+}
+
+/* FILTER PAGE */
+
+.filter-pic {
+  width: 75%;
+  margin-top: 3%;
+  margin-left: 8%;
+  box-shadow: 2px 2px 10px whitesmoke;
+}
+
+/* FOR EACH PAGE */
+
+.for-each-pic {
+  width: 75%;
+  margin-top: 3%;
+  margin-left: 8%;
+  box-shadow: 2px 2px 10px whitesmoke;
+}
+
+/* MAP PAGE */
+
+.map-pic {
+  width: 75%;
+  margin-top: 3%;
+  margin-left: 8%;
+  box-shadow: 2px 2px 10px whitesmoke;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Javascript</title>
+
+</head>
+
+<body>
+  <div class="js-main-container">
+    <!-- Back button -->
+    <div class="js-back-to-main" onclick="goBack()">
+      <h3>Back</h3>
+    </div>
+    <!-- Javascript title-->
+    <div class="js-main-title">
+      <img class="js-logo-pic" src="images/js-logo.png">
+      <h1>Javascript<span> &nbsp; &nbsp;(keep scrolling) &nbsp; (C = under construction)</span></h1>
+    </div>
+    <!-- Subject Titles in three column layout -->
+    <!-- Column 1-->
+    <div class="btn-group-a">
+      <a href="js-col-one/filter.html"><button>.filter()</button></a>
+      <a href="js-col-one/forEach.html"><button>.forEach()</button></a>
+      <button>.includes() C</button>
+      <button>.join() C</button>
+      <a href="js-col-one/map.html"><button>.map()</button></a>
+      <button>.reduce() C</button>
+      <button>.reverse() C</button>
+      <button>.replace() C</button>
+      <button>.sort() C</button>
+      <button>.split() C</button>
+      <button>Spread Operator C</button>
+      <button>.test() C</button>
+      <button>.trim() C</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Column 2 -->
+    <div class="btn-group-b">
+      <a href="js-col-two/accessing-objects.html"><button>Accessing Objects</button></a>
+      <a href="js-col-two/add-existing-objects.html"><button>Add Data to Existing Objects</button></a>
+      <a href="js-col-two/looping-through-objects.html"><button>Looping Through Objects</button></a>
+      <a href="js-col-two/is-palindrome.html"><button>Is Palindrome?</button></a>
+      <a href="js-col-two/callbacks.html"><button>Callbacks</button></a>
+      <a href="js-col-two/Promises.html"><button>Promises</button></a>
+      <button>Inline Functions C</button>
+      <button>Anon Functions C</button>
+      <a href="js-col-two/recursion.html"><button>Recursion</button></a>
+      <button>Nested Loops C</button>
+      <button>Arrow Functions C</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!-- Column 3 -->
+    <div class="btn-group-c">
+      <button>Asynchronous Programming C</button>
+      <button>The 6 Primitive Data Types C</button>
+      <button>Coercion C</button>
+    </div>
+
+  </div>
+
+
+  <script>
+    function goBack() {
+      window.history.back()
+    }
+  </script>
+
+</body>
+
+</html>

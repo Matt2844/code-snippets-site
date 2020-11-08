@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Useful Pieces of Code</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="mySidenav" class="side-nav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="templates.html">Templates</a>
+    <a href="html.html">.html</a>
+    <a href="css.html">.css</a>
+    <a href="js.html">.js</a>
+    <a href="more.html">More</a>
+  </div>
+
+  <!-- Add content in the div below if you want the side nav to push page content to the right. 
+  Not used if you only want the sidenav to sit on top of the page -->
+  <div id="mainPush" class="main-push-content">
+    <h2>Useful<br>Pieces<br>of<br>Code.</h2>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  </div>
+  </div>
+
+  <script>
+    /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("mainPush").style.marginLeft = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("mainPush").style.marginLeft = "0";
+    }
+  </script>
+
+
+</body>
+
+</html>

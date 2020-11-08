@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+}
+
+/* GLOBAL STYLING */
+
+body {
+  background-color: rgb(18, 16, 16);
+}
+
+/* Back button */
+.js-back-to-js {
+  font-size: 1.3rem;
+  margin-left: 1%;
+  cursor: pointer; 
+  opacity: 0.35;
+  margin-right: 92%;
+  color: white;
+}
+.js-back-to-js:hover {
+  opacity: 1;
+}
+
+/* ACCESSING OBJECTS PAGE */
+
+/* Images */ 
+.accessing-objects-pic1 {
+  width: 75%; 
+  display: block; 
+  margin-left: 10%;
+  box-shadow: 2px 2px 15px whitesmoke;
+}
+.accessing-objects-pic2 {
+  width: 75%;
+  margin-top: 3%;
+  margin-left: 10%;
+  box-shadow: 2px 2px 15px whitesmoke;
+}
+
+/* ADDING DATA TO EXISTING OBJECTS */ 
+
+/* Image */
+
+.add-existing-objects {
+  width: 90%; 
+  margin-left: 5%; 
+  box-shadow: 2px 2px 10px whitesmoke; 
+}
+
+/* LOOPING THROUGH OBJECTS */
+
+.looping-through-objects1 {
+  width: 80%;
+  margin-left: 10%; 
+  margin-bottom: 3%;
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+.looping-through-objects2 {
+  width: 80%;
+  margin-left: 10%; 
+  margin-bottom: 3%;
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+.looping-through-objects3 {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 3%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+.looping-through-objects4 {
+  width: 80%;
+  margin-left: 10%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+
+/* IS PALINDROME PAGE */ 
+
+.is-palindrome {
+  width: 80%;
+  margin-left: 10%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+
+/* CALLBACKS PAGE */
+
+.callbacks {
+  width: 80%;
+  margin-left: 8%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+
+/* RECURSION PAGE */
+
+.recursion {
+  width: 80%;
+  margin-left: 9%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
+
+/* PROMISES PAGE */ 
+
+.promises-pic {
+  width: 90%;
+  margin-left: 5%; 
+  box-shadow: 2px 2px 10px whitesmoke;
+  display: block;
+}
